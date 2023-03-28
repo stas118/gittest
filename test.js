@@ -1,5 +1,7 @@
 const axios = require('axios');
 const assert = require('assert');
+const FormData = require('form-data');
+
 describe('API петстора', function() {
 
   // тестовый сценарий для создания нового пользователя
