@@ -5,7 +5,7 @@ const FormData = require('form-data');
 describe('API петстора', function() {
 
   // тестовый сценарий для создания нового пользователя
-  it('Создаем собачку', function(done) {
+  it('Создаем собаку', function(done) {
     axios.put('https://petstore.swagger.io/v2/pet', {
   "id": 9223372036854250000,
   "category": {
